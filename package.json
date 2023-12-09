@@ -11,6 +11,15 @@
     ".": "./index.js",
     "./starry-sky.js": "./starry-sky.js"
   },
+  "bugs": {
+    "url": "https://github.com/manufosela/starry-sky/issues"
+  },
+  "homepage": "https://github.com/manufosela/starry-sky",
+  "keywords": [
+    "webcomponents",
+    "open-wc",
+    "lit-element"
+  ],
   "scripts": {
     "analyze": "cem analyze --litelement",
     "start": "web-dev-server",
