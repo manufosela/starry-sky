@@ -3,14 +3,14 @@
   "description": "Webcomponent starry-sky following open-wc recommendations",
   "license": "Apache-2.0",
   "author": "manufosela",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
-  "main": "starry-sky.js",
-  "module": "starry-sky.js",
-  "exports": {
-    ".": "./index.js",
-    "./starry-sky.js": "./starry-sky.js"
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/user/starry-sky.git"
   },
+  "module": "starry-sky.js",
   "bugs": {
     "url": "https://github.com/manufosela/starry-sky/issues"
   },
@@ -18,7 +18,8 @@
   "keywords": [
     "webcomponents",
     "open-wc",
-    "lit-element"
+    "lit-element",
+    "lit"
   ],
   "scripts": {
     "analyze": "cem analyze --litelement",
